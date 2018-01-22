@@ -13,7 +13,7 @@ public class LKW {
     private String marke;
     private String modell;
     private String kennzeichen;
-    private boolean hasSchneekettenOn;
+    private boolean hasSchneekettenOn = true;
 
     public LKW(String marke, String modell, String kennzeichen, boolean hasSchneekettenOn) {
         this.marke = marke;
